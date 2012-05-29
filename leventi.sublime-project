@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["node_modules", "public_build", "public/images"],
+			"file_exclude_patterns": ["leventi.sublime-workspace"]
+		}
+	],
+	"settings":
+    {
+    	"tab_size": 4
+    }
+}

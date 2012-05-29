@@ -1,0 +1,93 @@
+@import url("bootstrap.css");
+@import url("bootstrap-responsive.css");
+
+body {
+	width: 700px;
+	margin: 0 auto;
+}
+
+body > div {
+	position: relative;
+}
+
+#left {
+	position: absolute;
+	top: 125px;
+	width: 148px;
+	border-right: 1px solid #f4f4f4;
+}
+
+#left h1 {
+	font-size: 78px;
+	line-height: 80px;
+	margin: 25px 0 20px 0;
+	color: #454545;
+
+}
+
+#left a.square {
+	display: block;
+	margin: 0 0 0 5px;
+	width: 61px;
+	height: 58px;
+}
+
+#left a.square.facebook { background-color: #3c5a98; }
+#left a.square.linkedin { background-color: #5292b5; }
+#left a.square.twitter  { background-color: #33ccff; }
+
+#center {
+	position: absolute;
+	top: 25px;
+	left: 150px;
+	width: 550px;
+}
+
+#content {
+	position: relative;
+}
+
+#content > div {
+	display: none;
+}
+
+#content .current {
+	display: block;
+}
+
+#top {
+	position: relative;
+	height: 75px;
+}
+
+#top a.square {
+	position: absolute;
+	display: block;
+	width: 61px;
+	height: 58px;
+}
+
+#top a.square.previous 	{ left: 0; background-color: #F4F4F4; }
+#top a.square.next		{ right: 0; background-color: #F4F4F4; }	
+
+.a1 img {
+	float: left;
+}
+
+.a1 div {
+	float: left;
+	width: 424px;
+}
+
+.a1 div h2 {
+	font-size: 30px;
+	margin: 0 0 20px 0;
+}
+
+.a1 p {
+	font-size: 18px;
+}
+
+.a2 img {
+	display: block;
+}

@@ -1,0 +1,40 @@
+doctype 5
+html
+	head
+		meta(name="viewport", content="width=700")
+		title Matt Leventi
+		link(rel='stylesheet', href='/styles/main.css')
+	body
+		div
+			#left
+				h1 ML
+				div
+					a.square.facebook(href="http://www.facebook.com/leventi", title="facebook")
+					a.square.linkedin(href="http://www.linkedin.com/in/leventi", title="linkedin")
+					a.square.twitter(href="http://twitter.com/#!/mleventi", title="twitter")
+			#center
+				#top
+					a.square.previous(title="previous")
+					a.square.next(title="next")
+				#content
+					div
+					div.a1
+						img(src="images/knife.jpeg")
+						div
+							h2 #1
+							p This is a knife. It is a tool. It should be used with care. Sometimes it shouldn't be used.
+							p I think of programming the same way.
+					div.current.a2
+						img(src=" images/p2.png")
+				
+		script(data-main='scripts/main', src='scripts/require.js')
+		script
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-31912653-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();

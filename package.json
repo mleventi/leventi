@@ -1,0 +1,14 @@
+{
+	"name": "leventi",
+	"version": "1.0.0",
+	"engines": {
+    	"node": "0.6.x",
+    	"npm":  "1.1.x"
+  	},
+	"dependencies": {
+		"express": "*",
+		"coffee-script": "*",
+		"jade": "*",
+		"requirejs": "*"
+	}
+}
