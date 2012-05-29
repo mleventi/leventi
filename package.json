@@ -7,8 +7,10 @@
   	},
 	"dependencies": {
 		"express": "*",
-		"coffee-script": "*",
 		"jade": "*",
 		"requirejs": "*"
-	}
+	},
+    "devDependencies": {
+        "coffee-script": "*"
+    }
 }
